@@ -1,17 +1,28 @@
 
 <html>
+<body>
+
+<p class="flash-text-create"><%= flash[:notice] %></p>
+<p class="flash-text-update"><%= flash[:update] %></p>
 
 
-
-<div class="show">
-  <h6>Title</h6>
-  <p><%= @book.title %></p>
+<div class="show1">
+  <h4>Title:</h4>
+  <p class="show-text"><%= @book.title %></p>
   </div>
 
-<div class="show">
-  <h6>Body</h6>
-  <p><%= @book.body %></p>
+<div class="show2">
+  <h4>Body:</h4>
+  <p class="show-text"><%= @book.body %></p>
 </div>
+
+
+<div class="show-edit"> <%= link_to "Edit", edit_book_path(@book), method: :edit %></div>
+
+<p class="show-line">|</p>
+
+<div class="show-back"><%= link_to "Back", books_path %></div>
+
 
 </body>
 </html>

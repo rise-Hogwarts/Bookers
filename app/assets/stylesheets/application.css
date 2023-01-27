@@ -54,9 +54,7 @@ p, ol, ul, td{
   margin: 33px;
 }
 
-a{
-  color: #000;
-}
+
 
 #notice{
   color:green;
@@ -126,23 +124,14 @@ form{
   margin-top: 0em;
 }
 
-input[type="hidden"  i]{
-  appearance: none;
-  background-color: initial;
-  cursor: default;
-  display: none !important;
-  padding: initial;
-  border: initial;
+a{
+  color: #000;
 }
-
 
 div{
   display: block;
 }
 
-div.field, div.actions{
-  margin-bottom: 10px;
-}
 
 .title{
   margin-bottom: 10px;
@@ -162,6 +151,51 @@ div.field, div.actions{
   margin: 0;
 }
 
-.show{
+.flash-text-create, .flash-text-update{
+  color: green;
+  margin-left: 33px;
+}
+
+.show1{
+  display: block;
+  margin: 33px;
+  padding: 0;
+}
+
+.show2{
+  display: block;
+  margin-left: 33px;
+  margin-bottom: 33px;
+  padding: 0;
+}
+
+.show-edit, .show-back, .show-line, .show-text{
   display: inline-block;
+  margin: 0;
+}
+
+h4{
+  display: inline-block;
+}
+
+.edit-title{
+  margin: 0;
+}
+.edit-body{
+  margin: 0;
+}
+
+.edit-Body{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-update{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.edit-show, .edit-back{
+  display: inline-block;
+  margin: 0;
 }
